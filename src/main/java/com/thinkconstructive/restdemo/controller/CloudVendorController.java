@@ -38,7 +38,7 @@ public class CloudVendorController {
     public String createCloudVendorDetails(@RequestBody CloudVendor cloudVendor) {
 
         cloudVendorService.createCloudVendor(cloudVendor);
-        return "Cloud Vendor Created Successfully";
+        return "Cloud Vendor Has Been  Successfully Created";
 
     }
 
