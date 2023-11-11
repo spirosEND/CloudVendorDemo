@@ -46,7 +46,7 @@ public class CloudVendorController {
     public String updateCloudVendorDetails(@RequestBody CloudVendor cloudVendor) {
 
         cloudVendorService.updateCloudVendor(cloudVendor);
-        return "Cloud Vendor Updated Successfully";
+        return "Cloud Vendor Has Been Successfully Updated";
     }
 
     @DeleteMapping("{vendorId}")
